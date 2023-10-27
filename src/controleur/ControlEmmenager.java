@@ -25,6 +25,7 @@ public class ControlEmmenager {
 	public void ajouterGaulois(String nom, int force) {
 		Gaulois gaulois = new Gaulois(nom, force);
 		village.ajouterHabitant(gaulois);
+		
 	}
 
 }
