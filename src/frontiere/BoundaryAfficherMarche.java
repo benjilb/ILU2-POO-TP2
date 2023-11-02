@@ -23,7 +23,7 @@ public class BoundaryAfficherMarche {
 				i++;
 				String produit = infosMarche[i];
 				i++;
-				chaine.append("- " + vendeur +" qui vend " + quantite + produit + "\n");
+				chaine.append("- " + vendeur +" qui vend " + quantite + " " + produit + "\n");
 				
 			}
 			System.out.println(chaine.toString()); 
